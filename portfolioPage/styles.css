@@ -28,7 +28,7 @@ nav{
     position: fixed;
      
 }
-.navbar{
+.menu{
     display: flex;
     justify-content: end;
     align-items: center; 
@@ -36,6 +36,15 @@ nav{
     gap: 40px;
     padding-right: 10px;
     padding-top: 10px;
+    
+}
+#checkbox_toggle{
+    display: none;
+    
+}
+.hamburger{
+    display: none;
+    
 }
 .nav-link:hover{
     background-color: var(--old-pink);
