@@ -51,8 +51,9 @@ nav{
     border-radius: 10%;
 
 }
-.small{
-
+.about-text a:hover{
+     background-color: var(--old-pink);
+    border-radius: 10%;
 }
 
      
