@@ -131,14 +131,14 @@ h2{
 }
 
 img.project-tile{
-    max-width: 300px;
+    width: 330px;
     height: 250px;
 
 }
 
 /*About me*/
 section.about-me{
-    background-color: var(--dark-old-pink);
+    background-color: var(--old-pink);
     display: grid;
     justify-content: center;
     align-items: center;
@@ -341,7 +341,7 @@ section.Contact{
        .menu {
           display:none;
           position: absolute;
-          background-color: var(--dark-old-pink);
+          background-color: rgb(132, 98, 123, .75);;
           right: 0;
           left: 0;
           text-align: center;
