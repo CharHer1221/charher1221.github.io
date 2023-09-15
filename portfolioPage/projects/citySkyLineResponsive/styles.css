@@ -308,7 +308,7 @@
  
 
   
-  @media (max-width: 1000px) {
+  @media (max-width: 760px) {
     :root {
       --building-color1: #000;
       --building-color2: #000;
@@ -319,7 +319,11 @@
       --window-color3: #777;
       --window-color4: #777;
     }
-  
+  h1{
+    top: 40px;
+    font-size: 20px;
+    
+  }
   .sky {
       background: radial-gradient(
           closest-corner circle at 15% 15%,
