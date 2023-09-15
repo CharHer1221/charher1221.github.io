@@ -4,9 +4,7 @@
     --dark-old-pink:rgb(132, 98, 123);
     --light-gray: rgba(220, 218, 218, 0.868); 
     --complimentary-gold: #CABF72;
-    --penguin-face: white;
-  --penguin-picorna: orange;
-  --penguin-skin: gray;
+
 }
 *{
    font-family: 'Poppins', sans-serif; 
@@ -56,7 +54,7 @@ nav{
 .welcome{
     background-color: rgb(185, 138, 173);
     width: 100%;
-    height: 550px;
+    height: 650px;
     z-index: -1;
 }
 h1{
@@ -73,6 +71,7 @@ p{
     position: static;
     font-size: 25px;
     padding-bottom: 1rem;
+    
 }
 .linkedin-photo{
     width: 300px;
@@ -87,11 +86,11 @@ p{
 /*Projects*/
 
 .projects{
-    background-color: var(--light-gray);
+    background-color: rgb(244, 243, 243);
     height: fit-content;
 }
 .subtext{
-    color: rgb(248, 246, 246);
+    color: #4c9e9e;
     font-size: 18px;
     font-style: italic;
 }
@@ -127,7 +126,7 @@ h2{
 }
 
 img.project-tile{
-    max-width: 300px;
+    width: 330px;
     height: 250px;
 
 }
@@ -149,8 +148,8 @@ section.about-me{
     padding-bottom: 5px
 }
 img.me{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     display: grid;
     margin-left: auto;
     margin-right: auto;
@@ -172,8 +171,8 @@ img.me{
 /*Certs*/
 #Certificates{
     height: fit-content;
-    background-color: var(--light-gray);
-    padding-bottom: 50px;
+    background-color: rgb(244, 243, 243);
+    padding-bottom: 25px;
     display:grid;
     justify-content: center;
     align-items: center;
@@ -185,15 +184,17 @@ img.me{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
+    padding: 0;
     margin-left: auto;
     margin-right:auto;
+    gap: 10px
 
 }
 .certs-tile img{
-    background-color: var(--light-gray);
     width: 330px;
     height: 250px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
+    
     
 }
 
@@ -204,6 +205,9 @@ section.Contact{
     
 }
 
+.talk{
+    color:#4c9e9e !important;
+}
 .social-icons-grid{
     display:flex;
     justify-content: center;
@@ -233,6 +237,9 @@ section.Contact{
 }
 
 @media only screen and (max-width: 800px) {
+    .welcome{
+        height:500px;
+    }
     .gallery {
       grid-template-columns: 1fr 1fr;
     }
@@ -339,7 +346,7 @@ section.Contact{
        .menu {
           display:none;
           position: absolute;
-          background-color: var(--dark-old-pink);
+          background-color: rgb(132, 98, 123, .75);
           right: 0;
           left: 0;
           text-align: center;
