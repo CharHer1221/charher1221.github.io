@@ -17,7 +17,8 @@ span[class~="sr-only"] {
   
   body {
     font-family: sans-serif;
-    color: #0a0a23;
+    color: #5c5c5d;
+    background-color: white;
   }
   
   h1 {
