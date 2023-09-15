@@ -308,7 +308,7 @@
  
 
   
-  @media (max-width: 760px) {
+  @media (max-width: 850px) {
     :root {
       --building-color1: #000;
       --building-color2: #000;
